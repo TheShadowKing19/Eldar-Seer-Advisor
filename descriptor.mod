@@ -1,6 +1,12 @@
-version="1.1"
+name="Eldar Seer Advisor"
+version="1.0"
 tags={
 	"Sound"
+	"Warhammer40k"
+	"Eldar"
+	"Advisor"
+	"Announcer"
 }
-name="Eldar Seer Advisor"
-supported_version="v4.1.1"
+picture="thumbnail.png"
+supported_version="2.8.1"
+remote_file_id="2409592808"
