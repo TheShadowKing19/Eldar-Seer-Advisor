@@ -14,7 +14,6 @@
 
 advisor_EldarSeer = {
 	name = "SETTINGS_VOICE_TYPE_EldarSeer-advisor"
-	# name = "Eldar Seer Advisor"
     icon = "gfx/interface/icons/icon.dds"
 	
 	weight = {
