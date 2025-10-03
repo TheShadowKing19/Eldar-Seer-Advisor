@@ -34,6 +34,7 @@ soundgroup =
 		advisor_notification_generic_war_declare = Eldar_Seer_advisor_notification_generic_war_declare
 		advisor_notification_hostile_fleet_detected = Eldar_Seer_advisor_notification_hostile_fleet_detected
 		advisor_notification_hostile_fleet_engaged = Eldar_Seer_advisor_notification_hostile_fleet_engaged
+		advisor_notification_hostile_station_engaged = Eldar_Seer_advisor_notification_hostile_station_engaged
 	}
 }
 
@@ -857,29 +858,41 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_03.wav"
 }
 
+# Hostile station engaged
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_hostile_fleet_engaged
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged
 	sounds = {
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_01 weight = 500 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_03 weight = 600 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_hostile_station_engaged
-	sounds = {
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_01 weight = 900 }
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_03 weight = 500 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_01
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_02
+			weight = 400
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_03
+			weight = 300
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_01
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_02
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_03
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_03.wav"
+}
+
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_incoming_transmission
 	sounds = {
