@@ -31,6 +31,7 @@ soundgroup =
 		advisor_notification_federation_formed = Eldar_Seer_advisor_notification_federation_formed
 		advisor_notification_fleet_destroyed = Eldar_Seer_advisor_notification_fleet_destroyed
 		advisor_notification_frontier_outpost_lost = Eldar_Seer_advisor_notification_frontier_outpost_lost
+		advisor_notification_generic_war_declare = Eldar_Seer_advisor_notification_generic_war_declare
 	}
 }
 
@@ -703,15 +704,21 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
 }
 
+# Generic war declare
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_frontier_outpost_lost
+	name = Eldar_Seer_advisor_notification_generic_war_declare
 	sounds = {
-		weighted_sound = { sound = advisor_notification_frontier_outpost_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
+		
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_generic_war_declare_01
+	file = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_01.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_generic_war_declare
 	sounds = {
