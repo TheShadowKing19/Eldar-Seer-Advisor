@@ -536,7 +536,7 @@ soundeffect = {
 		}
 		weighted_sound = {
 			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_05
-			weight = 500
+			weight = 400
 		}
 		weighted_sound = {
 			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_06
@@ -556,7 +556,7 @@ soundeffect = {
 		}
 		weighted_sound = {
 			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_10
-			weight = 800
+			weight = 700
 		}
 	}
 	volume = 0.99
