@@ -29,6 +29,7 @@ soundgroup =
 		advisor_notification_enemy_troops_landing = Eldar_Seer_advisor_notification_enemy_troops_landing
 		advisor_notification_evade_hostile_fleet = Eldar_Seer_advisor_notification_evade_hostile_fleet
 		advisor_notification_federation_formed = Eldar_Seer_advisor_notification_federation_formed
+		advisor_notification_fleet_destroyed = Eldar_Seer_advisor_notification_fleet_destroyed
 	}
 }
 
@@ -649,17 +650,40 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_federation_formed_02.wav"
 }
 
+# Fleet destroyed
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_fleet_destroyed
+	name = Eldar_Seer_advisor_notification_fleet_destroyed
 	sounds = {
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_03 weight = 800 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_01
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_03
+			weight = 900
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_03
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_03.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_fleet_detected
 	sounds = {
