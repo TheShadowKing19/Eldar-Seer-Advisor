@@ -32,6 +32,7 @@ soundgroup =
 		advisor_notification_fleet_destroyed = Eldar_Seer_advisor_notification_fleet_destroyed
 		advisor_notification_frontier_outpost_lost = Eldar_Seer_advisor_notification_frontier_outpost_lost
 		advisor_notification_generic_war_declare = Eldar_Seer_advisor_notification_generic_war_declare
+		advisor_notification_hostile_fleet_detected = Eldar_Seer_advisor_notification_hostile_fleet_detected
 	}
 }
 
@@ -719,16 +720,108 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_01.wav"
 }
 
+# Hostile fleet detected
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_generic_war_declare
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected
 	sounds = {
-		weighted_sound = { sound = advisor_notification_generic_war_declare_01 weight = 700 }
-		weighted_sound = { sound = advisor_notification_generic_war_declare_02 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_01
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_02
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_03
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_04
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_05
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_07
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_08
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_09
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_10
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_11
+			weight = 100
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_01
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_02
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_03
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_04
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_04.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_05
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_05.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_06.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_06.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_07
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_07.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_08
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_08.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_09
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_09.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_10
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_10.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_11
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_11.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_hostile_fleet_detected
 	sounds = {
