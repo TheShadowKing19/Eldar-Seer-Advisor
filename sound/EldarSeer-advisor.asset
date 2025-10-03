@@ -30,6 +30,7 @@ soundgroup =
 		advisor_notification_evade_hostile_fleet = Eldar_Seer_advisor_notification_evade_hostile_fleet
 		advisor_notification_federation_formed = Eldar_Seer_advisor_notification_federation_formed
 		advisor_notification_fleet_destroyed = Eldar_Seer_advisor_notification_fleet_destroyed
+		advisor_notification_frontier_outpost_lost = Eldar_Seer_advisor_notification_frontier_outpost_lost
 	}
 }
 
@@ -684,16 +685,24 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_03.wav"
 }
 
+# Frontier outpost lost
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_fleet_detected
+	name = Eldar_Seer_advisor_notification_frontier_outpost_lost
 	sounds = {
-		weighted_sound = { sound = advisor_notification_fleet_detected_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_fleet_detected_02 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = advisor_notification_frontier_outpost_lost_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}		
+}
+sound = {
+	name = advisor_notification_frontier_outpost_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_frontier_outpost_lost
 	sounds = {
