@@ -43,6 +43,7 @@ soundgroup =
 		advisor_notification_military_station_lost = Eldar_Seer_advisor_notification_military_station_lost
 		advisor_notification_mining_station_lost = Eldar_Seer_advisor_notification_mining_station_lost
 		advisor_notification_observation_post_lost = Eldar_Seer_advisor_notification_observation_post_lost
+		advisor_notification_planet_in_revolt = Eldar_Seer_advisor_notification_planet_in_revolt
 	}
 }
 
@@ -1128,16 +1129,33 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_observation_post_lost_02.wav"
 }
 
+# Planet in revolt
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_planet_in_revolt
+	name = Eldar_Seer_advisor_notification_planet_in_revolt
 	sounds = {
-		weighted_sound = { sound = advisor_notification_planet_in_revolt_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_planet_in_revolt_02 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_planet_in_revolt_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_planet_in_revolt_02
+			weight = 500
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}		
+}	
+sound = {
+	name = Eldar_Seer_advisor_notification_planet_in_revolt_01
+	file = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_planet_in_revolt_02
+	file = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_02.wav"
+}
+
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_player_declare_war
 	sounds = {
