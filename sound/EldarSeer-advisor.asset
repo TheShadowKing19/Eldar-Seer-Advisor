@@ -39,6 +39,7 @@ soundgroup =
 		advisor_notification_invasion_enemy_won = Eldar_Seer_advisor_notification_invasion_enemy_won
 		advisor_notification_invasion_failed = Eldar_Seer_advisor_notification_invasion_failed
 		advisor_notification_invasion_progress = Eldar_Seer_advisor_notification_invasion_progress
+		advisor_notification_invasion_success = Eldar_Seer_advisor_notification_invasion_success
 	}
 }
 
@@ -1020,16 +1021,40 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_03.wav"
 }
 
+# Invasion success
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_success
+	name = Eldar_Seer_advisor_notification_invasion_success
 	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_success_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_invasion_success_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_03
+			weight = 800
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_03.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_military_station_lost
 	sounds = {
