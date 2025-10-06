@@ -35,6 +35,7 @@ soundgroup =
 		advisor_notification_hostile_fleet_detected = Eldar_Seer_advisor_notification_hostile_fleet_detected
 		advisor_notification_hostile_fleet_engaged = Eldar_Seer_advisor_notification_hostile_fleet_engaged
 		advisor_notification_hostile_station_engaged = Eldar_Seer_advisor_notification_hostile_station_engaged
+		advisor_notification_incoming_transmission = Eldar_Seer_advisor_notification_incoming_transmission
 	}
 }
 
@@ -892,16 +893,24 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_03.wav"
 }
 
-
+# Incoming transmission
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_incoming_transmission
+	name = Eldar_Seer_advisor_notification_incoming_transmission
 	sounds = {
-		weighted_sound = { sound = advisor_notification_incoming_transmission_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_incoming_transmission_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_incoming_transmission_01
+	file = "vo/advisor-EldarSeer/advisor_notification_incoming_transmission_01.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_invasion_enemy_won
 	sounds = {
