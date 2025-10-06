@@ -41,6 +41,7 @@ soundgroup =
 		advisor_notification_invasion_progress = Eldar_Seer_advisor_notification_invasion_progress
 		advisor_notification_invasion_success = Eldar_Seer_advisor_notification_invasion_success
 		advisor_notification_military_station_lost = Eldar_Seer_advisor_notification_military_station_lost
+		advisor_notification_mining_station_lost = Eldar_Seer_advisor_notification_mining_station_lost
 	}
 }
 
@@ -1074,15 +1075,32 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_military_station_lost_01.wav"
 }
 
+# Mining station lost
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_mining_station_lost
+	name = Eldar_Seer_advisor_notification_mining_station_lost
 	sounds = {
-		weighted_sound = { sound = advisor_notification_mining_station_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_mining_station_lost_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_mining_station_lost_02
+			weight = 500
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_mining_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_mining_station_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_mining_station_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_mining_station_lost_02.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_observation_post_lost
 	sounds = {
