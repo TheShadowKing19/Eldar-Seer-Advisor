@@ -36,6 +36,7 @@ soundgroup =
 		advisor_notification_hostile_fleet_engaged = Eldar_Seer_advisor_notification_hostile_fleet_engaged
 		advisor_notification_hostile_station_engaged = Eldar_Seer_advisor_notification_hostile_station_engaged
 		advisor_notification_incoming_transmission = Eldar_Seer_advisor_notification_incoming_transmission
+		advisor_notification_invasion_enemy_won = Eldar_Seer_advisor_notification_invasion_enemy_won
 	}
 }
 
@@ -911,17 +912,44 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_incoming_transmission_01.wav"
 }
 
+# Enemy invastion won
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_enemy_won
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won
 	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_02 weight = 800 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_01
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_02
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_03
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_04
+			weight = 400
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_03.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_invasion_failed
 	sounds = {
