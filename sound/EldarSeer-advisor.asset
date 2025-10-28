@@ -45,6 +45,7 @@ soundgroup =
 		advisor_notification_observation_post_lost = Eldar_Seer_advisor_notification_observation_post_lost
 		advisor_notification_planet_in_revolt = Eldar_Seer_advisor_notification_planet_in_revolt
 		advisor_notification_player_declare_war = Eldar_Seer_advisor_notification_player_declare_war
+		advisor_notification_pre_sapient_uplifted = Eldar_Seer_advisor_notification_pre_sapient_uplifted
 	}
 }
 
@@ -1185,15 +1186,40 @@ sound = {
 	name = Eldar_Seer_advisor_notification_player_declare_war_03
 	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_03.wav"
 }
+
+# Pre-sapient uplifted
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_pre_sapient_uplifted
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted
 	sounds = {
-		weighted_sound = { sound = advisor_notification_pre_sapient_uplifted_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_03
+			weight = 700
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_01
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_02
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_03
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_03.wav"
+}
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_primitive_enlighted
 	sounds = {
