@@ -1172,7 +1172,19 @@ soundeffect = {
 	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_01
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_02
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_03
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_03.wav"
+}
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_pre_sapient_uplifted
 	sounds = {
