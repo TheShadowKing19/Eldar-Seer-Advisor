@@ -935,10 +935,6 @@ soundeffect = {
 			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_03
 			weight = 800
 		}
-		weighted_sound = {
-			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_04
-			weight = 400
-		}
 	}
 	volume = 0.99
 	max_audible = 1
