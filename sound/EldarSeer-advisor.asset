@@ -48,6 +48,7 @@ soundgroup =
 		advisor_notification_pre_sapient_uplifted = Eldar_Seer_advisor_notification_pre_sapient_uplifted
 		advisor_notification_primitive_enlighted = Eldar_Seer_advisor_notification_primitive_enlighted
 		advisor_notification_research_complete = Eldar_Seer_advisor_notification_research_complete
+		advisor_notification_research_station_lost = Eldar_Seer_advisor_notification_research_station_lost
 	}
 }
 
@@ -1307,15 +1308,26 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_05.wav"
 }
 
+
+# Research station lost
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_research_station_lost
+	name = Eldar_Seer_advisor_notification_research_station_lost
 	sounds = {
 		weighted_sound = { sound = advisor_notification_research_station_lost_01 weight = 1000 }
+			sound = Eldar_Seer_advisor_notification_research_station_lost_01 
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_research_station_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_station_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_research_station_lost_02.wav"
+}
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_science_ship_destroyed
 	sounds = {
