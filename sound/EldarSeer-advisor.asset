@@ -57,6 +57,7 @@ soundgroup =
 		advisor_notification_spaceport_lost = Eldar_Seer_advisor_notification_spaceport_lost
 		advisor_notification_spaceport_under_attack = Eldar_Seer_advisor_notification_spaceport_under_attack
 		advisor_notification_special_project_complete = Eldar_Seer_advisor_notification_special_project_complete
+		advisor_notification_species_modified = Eldar_Seer_advisor_notification_species_modified
 	}
 }
 
@@ -1550,14 +1551,23 @@ sound = {
 	name = Eldar_Seer_advisor_notification_special_project_complete_01
 	file = "vo/advisor-EldarSeer/advisor_notification_special_project_complete_01.wav"
 }
+
+# Species modified
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_species_modified
+	name = Eldar_Seer_advisor_notification_species_modified
 	sounds = {
-		weighted_sound = { sound = advisor_notification_species_modified_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_species_modified_01 
+			weight = 1000 
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_species_modified_01
+	file = "vo/advisor-EldarSeer/advisor_notification_species_modified_01.wav"
 }
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_station_under_attack
