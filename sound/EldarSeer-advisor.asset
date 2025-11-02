@@ -50,6 +50,7 @@ soundgroup =
 		advisor_notification_research_complete = Eldar_Seer_advisor_notification_research_complete
 		advisor_notification_research_station_lost = Eldar_Seer_advisor_notification_research_station_lost
 		advisor_notification_science_ship_destroyed = Eldar_Seer_advisor_notification_science_ship_destroyed
+		advisor_notification_science_ship_under_attack = Eldar_Seer_advisor_notification_science_ship_under_attack
 	}
 }
 
@@ -1362,15 +1363,39 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_destroyed_02.wav"
 }
 
+# Science ship under attack
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_science_ship_under_attack
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack
 	sounds = {
-		weighted_sound = { sound = advisor_notification_science_ship_under_attack_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_01 
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_02
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_03
+			weight = 700
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_02
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_03
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_03.wav"
+}
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_ships_upgraded
 	sounds = {
