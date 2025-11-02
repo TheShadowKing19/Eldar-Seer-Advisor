@@ -51,6 +51,7 @@ soundgroup =
 		advisor_notification_research_station_lost = Eldar_Seer_advisor_notification_research_station_lost
 		advisor_notification_science_ship_destroyed = Eldar_Seer_advisor_notification_science_ship_destroyed
 		advisor_notification_science_ship_under_attack = Eldar_Seer_advisor_notification_science_ship_under_attack
+		advisor_notification_ships_upgraded = Eldar_Seer_advisor_notification_ships_upgraded
 	}
 }
 
@@ -1396,25 +1397,40 @@ sound = {
 	name = Eldar_Seer_advisor_notification_science_ship_under_attack_03
 	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_03.wav"
 }
+
+# Ships upgraded
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_ships_upgraded
+	name = Eldar_Seer_advisor_notification_ships_upgraded
 	sounds = {
-		weighted_sound = { sound = advisor_notification_ships_upgraded_01 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_02 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_03 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_04 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_05 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_06 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_07 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_08 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_09 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_10 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_11 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_01 
+			weight = 600 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_02 
+			weight = 600 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_03 
+			weight = 600 
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_01
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_02
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_03
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_03.wav"
+}
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_situation_log
 	sounds = {
