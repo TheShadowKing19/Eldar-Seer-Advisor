@@ -1435,7 +1435,6 @@ sound = {
 
 # Situation log
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_situation_log
 	name = Eldar_Seer_advisor_notification_situation_log
 	sounds = {
 		weighted_sound = {
