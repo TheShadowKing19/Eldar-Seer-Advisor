@@ -54,6 +54,7 @@ soundgroup =
 		advisor_notification_ships_upgraded = Eldar_Seer_advisor_notification_ships_upgraded
 		advisor_notification_situation_log = Eldar_Seer_advisor_notification_situation_log
 		advisor_notification_spaceborne_encounter = Eldar_Seer_advisor_notification_spaceborne_encounter
+		advisor_notification_spaceport_lost = Eldar_Seer_advisor_notification_spaceport_lost
 	}
 }
 
@@ -1494,11 +1495,23 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_spaceborne_encounter_01.wav"
 }
 
+# Spaceport lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_spaceport_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_spaceport_lost_01 
+			weight = 1000
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_spaceport_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceport_lost_01.wav"
+}
 
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_spaceport_under_attack
