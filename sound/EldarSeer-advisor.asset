@@ -60,6 +60,7 @@ soundgroup =
 		advisor_notification_species_modified = Eldar_Seer_advisor_notification_species_modified
 		advisor_notification_station_under_attack = Eldar_Seer_advisor_notification_station_under_attack
 		advisor_notification_system_survey_complete = Eldar_Seer_advisor_notification_system_survey_complete
+		advisor_notification_tile_blocker_clear = Eldar_Seer_advisor_notification_tile_blocker_clear
 	}
 }
 
@@ -1607,15 +1608,25 @@ sound = {
 	name = Eldar_Seer_advisor_notification_system_survey_complete_01
 	file = "vo/advisor-EldarSeer/advisor_notification_system_survey_complete_01.wav"
 }
+
+# Tile blocker clear
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_tile_blocker_clear
+	name = Eldar_Seer_advisor_notification_tile_blocker_clear
 	sounds = {
-		weighted_sound = { sound = advisor_notification_tile_blocker_clear_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_tile_blocker_clear_01 
+			weight = 1000 
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_tile_blocker_clear_01
+	file = "vo/advisor-EldarSeer/advisor_notification_tile_blocker_clear_01.wav"
+}
+
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_unidentified_object
 	sounds = {
