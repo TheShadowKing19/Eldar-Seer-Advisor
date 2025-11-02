@@ -52,6 +52,7 @@ soundgroup =
 		advisor_notification_science_ship_destroyed = Eldar_Seer_advisor_notification_science_ship_destroyed
 		advisor_notification_science_ship_under_attack = Eldar_Seer_advisor_notification_science_ship_under_attack
 		advisor_notification_ships_upgraded = Eldar_Seer_advisor_notification_ships_upgraded
+		advisor_notification_situation_log = Eldar_Seer_advisor_notification_situation_log
 	}
 }
 
@@ -1431,17 +1432,48 @@ sound = {
 	name = Eldar_Seer_advisor_notification_ships_upgraded_03
 	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_03.wav"
 }
+
+# Situation log
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_situation_log
+	name = Eldar_Seer_advisor_notification_situation_log
 	sounds = {
-		weighted_sound = { sound = advisor_notification_situation_log_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_03 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_04 weight = 1000 }
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_situation_log_01
+			weight = 700
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_02
+			weight = 700 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_03
+			weight = 700 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_04
+			weight = 700 
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_01
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_02
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_03
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_04
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_04.wav"
 }
 soundeffect = {
 	name = advisor-EldarSeer_advisor_notification_spaceport_lost
