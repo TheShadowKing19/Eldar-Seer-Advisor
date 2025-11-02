@@ -53,6 +53,7 @@ soundgroup =
 		advisor_notification_science_ship_under_attack = Eldar_Seer_advisor_notification_science_ship_under_attack
 		advisor_notification_ships_upgraded = Eldar_Seer_advisor_notification_ships_upgraded
 		advisor_notification_situation_log = Eldar_Seer_advisor_notification_situation_log
+		advisor_notification_spaceborne_encounter = Eldar_Seer_advisor_notification_spaceborne_encounter
 	}
 }
 
@@ -1474,10 +1475,25 @@ sound = {
 	name = Eldar_Seer_advisor_notification_situation_log_04
 	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_04.wav"
 }
+
+# Spaceborne encounter
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_spaceport_lost
+	name = Eldar_Seer_advisor_notification_spaceborne_encounter
 	sounds = {
-		weighted_sound = { sound = advisor_notification_spaceport_lost_01 weight = 1000 }
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_spaceborne_encounter_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_spaceborne_encounter_01
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceborne_encounter_01.wav"
+}
+
 	} 
 	volume = 0.45
 	max_audible = 1
