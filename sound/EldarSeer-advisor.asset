@@ -64,6 +64,7 @@ soundgroup =
 		advisor_notification_unidentified_object = Eldar_Seer_advisor_notification_unidentified_object
 		advisor_notification_wormhole_station_lost = Eldar_Seer_advisor_notification_wormhole_station_lost
 		advisor_tutorial_agenda_available = Eldar_Seer_advisor_tutorial_agenda_available
+		advisor_tutorial_agenda_ready = Eldar_Seer_advisor_tutorial_agenda_ready
 	}
 }
 
@@ -1692,6 +1693,23 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_tutorial_agenda_available_01.wav"
 }
 
+# Agenda ready
+soundeffect = {
+	name = Eldar_Seer_advisor_tutorial_agenda_ready
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_tutorial_agenda_ready_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_tutorial_agenda_ready_01
+	file = "vo/advisor-EldarSeer/advisor_tutorial_agenda_ready_01.wav"
+}
 
 
 
