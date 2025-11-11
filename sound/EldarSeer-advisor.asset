@@ -185,7 +185,7 @@ soundeffect = {
 			weight = 500
 		}
 		weighted_sound = {
-			sound = Eldar_Seer_advisor_notification_alien_spaceport_engaged_02
+			sound = Eldar_Seer_advisor_notification_alien_spaceport_engaged_03
 			weight = 600
 		}
 	}
