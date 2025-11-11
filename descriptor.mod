@@ -6,6 +6,6 @@ tags={
 	"Advisor"
 	"Announcer"
 }
-picture="thumbnail.png"
+picture="thumbnail_EldarSeer.png"
 name="Eldar Seer Advisor"
 supported_version="v4.1.7"
