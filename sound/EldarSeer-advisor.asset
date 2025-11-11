@@ -742,7 +742,7 @@ soundeffect = {
 	name = Eldar_Seer_advisor_notification_frontier_outpost_lost
 	sounds = {
 		weighted_sound = {
-			sound = advisor_notification_frontier_outpost_lost_01
+			sound = Eldar_Seer_advisor_notification_frontier_outpost_lost_01
 			weight = 1000
 		}
 	}
