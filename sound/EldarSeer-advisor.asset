@@ -36,6 +36,7 @@ soundgroup =
 		advisor_notification_hostile_fleet_engaged = Eldar_Seer_advisor_notification_hostile_fleet_engaged
 		advisor_notification_hostile_station_engaged = Eldar_Seer_advisor_notification_hostile_station_engaged
 		advisor_notification_incoming_transmission = Eldar_Seer_advisor_notification_incoming_transmission
+		advisor_notification_incoming_transmission_01 = Eldar_Seer_advisor_notification_incoming_transmission_011
 		advisor_notification_invasion_enemy_won = Eldar_Seer_advisor_notification_invasion_enemy_won
 		advisor_notification_invasion_failed = Eldar_Seer_advisor_notification_invasion_failed
 		advisor_notification_invasion_progress = Eldar_Seer_advisor_notification_invasion_progress
@@ -940,6 +941,20 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_incoming_transmission_01.wav"
 }
 
+# Incoming transmission 01 (For caravans events)
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_incoming_transmission_011
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_incoming_transmission_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
 # Enemy invastion won
 soundeffect = {
 	name = Eldar_Seer_advisor_notification_invasion_enemy_won
@@ -1743,6 +1758,7 @@ category = {
 		Eldar_Seer_advisor_notification_hostile_fleet_engaged
 		Eldar_Seer_advisor_notification_hostile_station_engaged
 		Eldar_Seer_advisor_notification_incoming_transmission
+		Eldar_Seer_advisor_notification_incoming_transmission_011
 		Eldar_Seer_advisor_notification_invasion_enemy_won
 		Eldar_Seer_advisor_notification_invasion_failed
 		Eldar_Seer_advisor_notification_invasion_progress
