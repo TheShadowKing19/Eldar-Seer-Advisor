@@ -971,7 +971,7 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 
-# Enemy invastion won
+# Enemy invasion won
 soundeffect = {
 	name = Eldar_Seer_advisor_notification_invasion_enemy_won
 	sounds = {
