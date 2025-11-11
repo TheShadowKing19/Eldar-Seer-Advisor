@@ -751,7 +751,7 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 sound = {
-	name = advisor_notification_frontier_outpost_lost_01
+	name = Eldar_Seer_advisor_notification_frontier_outpost_lost_01
 	file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
 }
 
