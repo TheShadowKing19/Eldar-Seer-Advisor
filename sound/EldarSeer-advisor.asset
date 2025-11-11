@@ -1294,23 +1294,23 @@ soundeffect = {
 	name = Eldar_Seer_advisor_notification_research_complete
 	sounds = {
 		weighted_sound = { 
-			sound = advisor_notification_research_complete_01 
+			sound = Eldar_Seer_advisor_notification_research_complete_01 
 			weight = 800 
 		}
 		weighted_sound = { 
-			sound = advisor_notification_research_complete_02 
+			sound = Eldar_Seer_advisor_notification_research_complete_02 
 			weight = 800 
 		}
 		weighted_sound = { 
-			sound = advisor_notification_research_complete_03 
+			sound = Eldar_Seer_advisor_notification_research_complete_03 
 			weight = 800 
 		}
 		weighted_sound = { 
-			sound = advisor_notification_research_complete_04 
+			sound = Eldar_Seer_advisor_notification_research_complete_04 
 			weight = 800
 		}
 		weighted_sound = {
-			sound = advisor_notification_research_complete_05
+			sound = Eldar_Seer_advisor_notification_research_complete_05
 			weight = 800
 		}
 	} 
@@ -1319,23 +1319,23 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 sound = {
-	name = advisor_notification_research_complete_01
+	name = Eldar_Seer_advisor_notification_research_complete_01
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_01.wav"
 }
 sound = {
-	name = advisor_notification_research_complete_02
+	name = Eldar_Seer_advisor_notification_research_complete_02
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_02.wav"
 }
 sound = {
-	name = advisor_notification_research_complete_03
+	name = Eldar_Seer_advisor_notification_research_complete_03
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_03.wav"
 }
 sound = {
-	name = advisor_notification_research_complete_04
+	name = Eldar_Seer_advisor_notification_research_complete_04
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_04.wav"
 }
 sound = {
-	name = advisor_notification_research_complete_05
+	name = Eldar_Seer_advisor_notification_research_complete_05
 	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_05.wav"
 }
 
