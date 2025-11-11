@@ -759,7 +759,10 @@ sound = {
 soundeffect = {
 	name = Eldar_Seer_advisor_notification_generic_war_declare
 	sounds = {
-		
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_generic_war_declare_01
+			weight = 1000
+		}
 	}
 	volume = 0.99
 	max_audible = 1
