@@ -851,10 +851,6 @@ sound = {
 	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_06.wav"
 }
 sound = {
-	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
-	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_06.wav"
-}
-sound = {
 	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_07
 	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_07.wav"
 }
