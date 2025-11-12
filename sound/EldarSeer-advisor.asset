@@ -169,7 +169,7 @@ sound = {
 }
 sound = {
 	name = Eldar_Seer_advisor_notification_alien_federation_formed_02
-	file = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_01.wav"
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_02.wav"
 }
 
 # Alien Spaceport Engaged 
