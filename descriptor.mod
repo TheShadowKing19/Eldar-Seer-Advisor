@@ -9,3 +9,4 @@ tags={
 picture="thumbnail_EldarSeer.png"
 name="Eldar Seer Advisor"
 supported_version="v4.1.7"
+remote_file_id="2409592808"
