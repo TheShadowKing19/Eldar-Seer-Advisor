@@ -1552,7 +1552,7 @@ soundeffect = {
 }
 sound = {
 	name = Eldar_Seer_advisor_notification_spaceport_under_attack_01
-	file = "vo/advisor-EldarSeer/advisor_notification_spaceport_lost_01.wav"
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceport_under_attack_01.wav"
 }
 
 # Special project complete
