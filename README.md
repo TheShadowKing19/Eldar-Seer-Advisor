@@ -16,7 +16,7 @@ This voice pack has been fully updated to be compatible with the latest version 
 
 * **Complete Replacement:** Replaces the entire default English advisor voice set.
 * **Fully Updated:** Includes custom voice lines for all recent game mechanics, ensuring no silent notifications.
-* **Unique Personality:** The advisor provides an engimatic tone for your empire, worthy of an ancient, dying race of Warhammer 40k.
+* **Unique Personality:** The advisor provides an enigmatic tone for your empire, worthy of an ancient Eldar Empire!.
 * **High-Quality Audio:** All lines have been processed for clarity and consistency.
 
 ### 🔧 Installation
