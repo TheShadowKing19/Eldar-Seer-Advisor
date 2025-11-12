@@ -7,7 +7,7 @@ soundgroup =
 
 	# Override game notification sounds. The assigned values (the ones of the right of equal sign) can by any.
 	# As of 4.1.1, the full list of advisor's notification sounds can be found in <game_directory>\sound\category.asset, starting at line 727.
-	# All variables there (eg. advisor_notification_system_survey_complete) must be overrided in soundeffectoverrides bellow.
+	# All variables there (eg. advisor_notification_system_survey_complete) must be overridden in soundeffectoverrides below.
 	soundeffectoverrides = {
 		advisor_sample_voice_type = Eldar_Seer_advisor_generic_phrase
 		advisor_notification_alien_empire_communication_01 = Eldar_Seer_advisor_notification_alien_empire_communication
