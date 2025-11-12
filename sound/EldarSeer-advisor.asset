@@ -4,1052 +4,1788 @@ soundgroup =
 {
 	name = advisor_EldarSeer
 	sort_order = 100
-	
-	soundoverride =
-	{
-		name = "advisor_notification_system_survey_complete_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_system_survey_complete_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_science_ship_destroyed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_science_ship_destroyed_01.wav"
-	}
 
-	soundoverride =
-	{
-		name = "advisor_notification_science_ship_under_attack_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_01.wav"
+	# Override game notification sounds. The assigned values (the ones of the right of equal sign) can by any.
+	# As of 4.1.1, the full list of advisor's notification sounds can be found in <game_directory>\sound\category.asset, starting at line 727.
+	# All variables there (eg. advisor_notification_system_survey_complete) must be overridden in soundeffectoverrides below.
+	soundeffectoverrides = {
+		advisor_sample_voice_type = Eldar_Seer_advisor_generic_phrase
+		advisor_notification_alien_empire_communication_01 = Eldar_Seer_advisor_notification_alien_empire_communication
+		advisor_notification_alien_federation_formed = Eldar_Seer_advisor_notification_alien_federation_formed
+		advisor_notification_alien_spaceport_engaged = Eldar_Seer_advisor_notification_alien_spaceport_engaged
+		advisor_notification_alien_vessel_encountered = Eldar_Seer_advisor_notification_alien_vessel_encountered
+		advisor_notification_building_ruined = Eldar_Seer_advisor_notification_building_ruined
+		advisor_notification_colonization_progress = Eldar_Seer_advisor_notification_colonization_progress
+		advisor_notification_colony_established = Eldar_Seer_advisor_notification_colony_established
+		advisor_notification_colony_ship_destroyed_01 = Eldar_Seer_advisor_notification_colony_ship_destroyed
+		advisor_notification_colony_ship_under_attack = Eldar_Seer_advisor_notification_colony_ship_under_attack
+		advisor_notification_construction_complete = Eldar_Seer_advisor_notification_construction_complete
+		advisor_notification_construction_ship_destroyed = Eldar_Seer_advisor_notification_construction_ship_destroyed
+		advisor_notification_construction_ship_under_attack = Eldar_Seer_advisor_notification_construction_ship_under_attack
+		advisor_notification_debris_analysed = Eldar_Seer_advisor_notification_debris_analysed
+		advisor_notification_discovery_detected = Eldar_Seer_advisor_notification_discovery_detected
+		advisor_notification_enemy_declared_war = Eldar_Seer_advisor_notification_enemy_declared_war
+		advisor_notification_enemy_invasion_defeated = Eldar_Seer_advisor_notification_enemy_invasion_defeated
+		advisor_notification_enemy_troops_landing = Eldar_Seer_advisor_notification_enemy_troops_landing
+		advisor_notification_evade_hostile_fleet = Eldar_Seer_advisor_notification_evade_hostile_fleet
+		advisor_notification_federation_formed = Eldar_Seer_advisor_notification_federation_formed
+		advisor_notification_fleet_destroyed = Eldar_Seer_advisor_notification_fleet_destroyed
+		advisor_notification_frontier_outpost_lost = Eldar_Seer_advisor_notification_frontier_outpost_lost
+		advisor_notification_generic_war_declare = Eldar_Seer_advisor_notification_generic_war_declare
+		advisor_notification_hostile_fleet_detected = Eldar_Seer_advisor_notification_hostile_fleet_detected
+		advisor_notification_hostile_fleet_engaged = Eldar_Seer_advisor_notification_hostile_fleet_engaged
+		advisor_notification_hostile_station_engaged = Eldar_Seer_advisor_notification_hostile_station_engaged
+		advisor_notification_incoming_transmission = Eldar_Seer_advisor_notification_incoming_transmission
+		advisor_notification_incoming_transmission_01 = Eldar_Seer_advisor_notification_incoming_transmission_011
+		advisor_notification_invasion_enemy_won = Eldar_Seer_advisor_notification_invasion_enemy_won
+		advisor_notification_invasion_failed = Eldar_Seer_advisor_notification_invasion_failed
+		advisor_notification_invasion_progress = Eldar_Seer_advisor_notification_invasion_progress
+		advisor_notification_invasion_success = Eldar_Seer_advisor_notification_invasion_success
+		advisor_notification_military_station_lost = Eldar_Seer_advisor_notification_military_station_lost
+		advisor_notification_mining_station_lost = Eldar_Seer_advisor_notification_mining_station_lost
+		advisor_notification_observation_post_lost = Eldar_Seer_advisor_notification_observation_post_lost
+		advisor_notification_planet_in_revolt = Eldar_Seer_advisor_notification_planet_in_revolt
+		advisor_notification_player_declare_war = Eldar_Seer_advisor_notification_player_declare_war
+		advisor_notification_pre_sapient_uplifted = Eldar_Seer_advisor_notification_pre_sapient_uplifted
+		advisor_notification_primitive_enlighted = Eldar_Seer_advisor_notification_primitive_enlighted
+		advisor_notification_research_complete = Eldar_Seer_advisor_notification_research_complete
+		advisor_notification_research_station_lost = Eldar_Seer_advisor_notification_research_station_lost
+		advisor_notification_science_ship_destroyed = Eldar_Seer_advisor_notification_science_ship_destroyed
+		advisor_notification_science_ship_under_attack = Eldar_Seer_advisor_notification_science_ship_under_attack
+		advisor_notification_ships_upgraded = Eldar_Seer_advisor_notification_ships_upgraded
+		advisor_notification_situation_log = Eldar_Seer_advisor_notification_situation_log
+		advisor_notification_spaceborne_encounter = Eldar_Seer_advisor_notification_spaceborne_encounter
+		advisor_notification_spaceport_lost = Eldar_Seer_advisor_notification_spaceport_lost
+		advisor_notification_spaceport_under_attack = Eldar_Seer_advisor_notification_spaceport_under_attack
+		advisor_notification_special_project_complete = Eldar_Seer_advisor_notification_special_project_complete
+		advisor_notification_species_modified = Eldar_Seer_advisor_notification_species_modified
+		advisor_notification_station_under_attack = Eldar_Seer_advisor_notification_station_under_attack
+		advisor_notification_system_survey_complete = Eldar_Seer_advisor_notification_system_survey_complete
+		advisor_notification_tile_blocker_clear = Eldar_Seer_advisor_notification_tile_blocker_clear
+		advisor_notification_unidentified_object = Eldar_Seer_advisor_notification_unidentified_object
+		advisor_notification_wormhole_station_lost = Eldar_Seer_advisor_notification_wormhole_station_lost
+		advisor_tutorial_agenda_available = Eldar_Seer_advisor_tutorial_agenda_available
+		advisor_tutorial_agenda_ready = Eldar_Seer_advisor_tutorial_agenda_ready
 	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_construction_complete_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_construction_complete_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_construction_ship_destroyed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_construction_ship_destroyed_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_construction_ship_under_attack_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_construction_ship_under_attack_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_colony_established_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_colony_established_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_colony_ship_under_attack_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_under_attack_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_colony_ship_destroyed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_spaceport_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_spaceport_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_enemy_invasion_defeated_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_enemy_invasion_defeated_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_invasion_enemy_won_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_invasion_failed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_invasion_failed_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_invasion_success_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_military_station_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_military_station_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_mining_station_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_mining_station_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_research_station_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_research_station_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_observation_post_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_observation_post_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_outpost_station_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_wormhole_station_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_wormhole_station_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_hostile_fleet_detected_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_hostile_fleet_engaged_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_fleet_destroyed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_station_under_attack_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_station_under_attack_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_special_project_complete_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_special_project_complete_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_situation_log_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_situation_log_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_enemy_troops_landing_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_incoming_transmission_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_incoming_transmission_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_research_complete_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_research_complete_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_discovery_detected_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_discovery_detected_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_ships_upgraded_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_evade_hostile_fleet_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_evade_hostile_fleet_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_alien_spaceport_engaged_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_alien_spaceport_engaged_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_building_ruined_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_building_ruined_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_colonization_progress_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_debris_analysed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_debris_analysed_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_enemy_declared_war_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_federation_formed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_federation_formed_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_frontier_outpost_lost_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_hostile_station_engaged_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_player_declare_war_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_primitive_enlighted_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_primitive_enlighted_01.wav"
-	}
-	
-	
-	soundoverride =
-	{
-		name = "advisor_notification_species_modified_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_species_modified_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_tile_blocker_clear_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_tile_blocker_clear_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_unidentified_object_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_unidentified_object_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_01"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_01.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_02"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_02.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_03"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_03.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_04"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_04.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_05"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_05.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_sample_vo_06"
-		file = "vo/advisor-EldarSeer/advisor_generic_phrase_06.wav"
-	}
-	
-	soundoverride =
-	{
-		name = "advisor_notification_alien_empire_communication_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_alien_empire_communication_01.wav"
-	}
+}
 
-	soundoverride =
-	{
-		name = "advisor_notification_alien_federation_formed_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_alien_vessel_encountered_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_alien_vessel_encountered_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_generic_war_declare_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_pre_sapient_uplifted_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_01.wav"
-	}
-
-	soundoverride =
-	{
-		name = "advisor_notification_spaceport_under_attack_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_spaceport_under_attack_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_invasion_progress_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_fleet_detected_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_fleet_detected_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_generic_war_declare_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_invasion_enemy_won_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_01.wav"
-	}
-	soundoverride =
-	{
-		name = "advisor_notification_planet_in_revolt_01"
-		file = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_01.wav"
-	}
-	#### EXTRA LINES
-	
-	soundeffectoverrides =
-
-	{	
-		advisor_notification_situation_log = advisor-EldarSeer_advisor_notification_situation_log
-		advisor_notification_ships_upgraded = advisor-EldarSeer_advisor_notification_ships_upgraded
-		advisor_notification_science_ship_destroyed = advisor-EldarSeer_advisor_notification_science_ship_destroyed
-		advisor_notification_planet_in_revolt = advisor-EldarSeer_advisor_notification_planet_in_revolt
-		advisor_notification_invasion_enemy_won = advisor-EldarSeer_advisor_notification_invasion_enemy_won
-		advisor_notification_hostile_fleet_detected = advisor-EldarSeer_advisor_notification_hostile_fleet_detected
-		advisor_notification_generic_war_declare = advisor-EldarSeer_advisor_notification_generic_war_declare
-		advisor_notification_fleet_detected = advisor-EldarSeer_advisor_notification_fleet_detected
-		advisor_notification_alien_empire_communication_01 = advisor-EldarSeer_advisor_notification_alien_empire_communication
-		advisor_notification_discovery_detected = advisor-EldarSeer_advisor_notification_discovery_detected
-		advisor_notification_enemy_declared_war = advisor-EldarSeer_advisor_notification_enemy_declared_war
-		advisor_notification_debris_analysed = advisor-EldarSeer_advisor_notification_debris_analysed
-		advisor_notification_enemy_invasion_defeated = advisor-EldarSeer_advisor_notification_enemy_invasion_defeated
-		advisor_notification_enemy_troops_landing = advisor-EldarSeer_advisor_notification_enemy_troops_landing
-		advisor_notification_evade_hostile_fleet = advisor-EldarSeer_advisor_notification_evade_hostile_fleet
-		advisor_notification_hostile_fleet_engaged = advisor-EldarSeer_advisor_notification_hostile_fleet_engaged
-		advisor_notification_hostile_station_engaged = advisor-EldarSeer_advisor_notification_hostile_station_engaged
-		advisor_notification_invasion_progress = advisor-EldarSeer_advisor_notification_invasion_progress
-		advisor_notification_invasion_success = advisor-EldarSeer_advisor_notification_invasion_success
-		advisor_notification_player_declare_war = advisor-EldarSeer_advisor_notification_player_declare_war
-		advisor_notification_spacebourne_encounter = advisor-EldarSeer_advisor_notification_spacebourne_encounter
-		advisor_notification_spaceport_under_attack = advisor-EldarSeer_advisor_notification_spaceport_under_attack
-		advisor_notification_species_modified = advisor-EldarSeer_advisor_notification_species_modified
-		advisor_notification_station_under_attack = advisor-EldarSeer_advisor_notification_station_under_attack
-		advisor_notification_alien_spaceport_engaged = advisor-EldarSeer_advisor_notification_alien_spaceport_engaged
-		advisor_notification_research_complete = advisor-EldarSeer_advisor_notification_research_complete
+# "soundeffect" object ties "sound" object to a name (in this case "Eldar_Seer_advisor_generic_phrase". The name has to be one of the values assigned in "soundeffectoverrides".
+# That way, the game knows what sounds communicate what notification.
+soundeffect = {
+	name = Eldar_Seer_advisor_generic_phrase
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_01 # Should have the same value as "name" attribute for "sound" object.
+			weight = 200 # (Probably) random value, from 0-1000. The bigger it is, the more likely it will trigger.
 		}
-	
-	soundfileoverrides = 
-	{	
-		advisor_notification_situation_log_02 = "vo/advisor-EldarSeer/advisor_notification_situation_log_02.wav"
-		advisor_notification_situation_log_03 = "vo/advisor-EldarSeer/advisor_notification_situation_log_03.wav"
-		advisor_notification_situation_log_04 = "vo/advisor-EldarSeer/advisor_notification_situation_log_04.wav"
-		advisor_notification_ships_upgraded_02 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_02.wav"
-		advisor_notification_ships_upgraded_03 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_03.wav"
-		advisor_notification_ships_upgraded_04 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_04.wav"
-		advisor_notification_ships_upgraded_05 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_05.wav"
-		advisor_notification_ships_upgraded_06 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_06.wav"
-		advisor_notification_ships_upgraded_07 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_07.wav"
-		advisor_notification_ships_upgraded_08 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_08.wav"
-		advisor_notification_ships_upgraded_09 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_09.wav"
-		advisor_notification_ships_upgraded_10 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_10.wav"
-		advisor_notification_ships_upgraded_11 = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_11.wav"
-		advisor_notification_science_ship_destroyed_02 = "vo/advisor-EldarSeer/advisor_notification_science_ship_destroyed_02.wav"
-		advisor_notification_research_complete_02 = "vo/advisor-EldarSeer/advisor_notification_research_complete_02.wav"
-		advisor_notification_research_complete_03 = "vo/advisor-EldarSeer/advisor_notification_research_complete_03.wav"
-		advisor_notification_research_complete_04 = "vo/advisor-EldarSeer/advisor_notification_research_complete_04.wav"
-		advisor_notification_planet_in_revolt_02 = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_02.wav"
-		advisor_notification_invasion_enemy_won_02 = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_02.wav"
-		advisor_notification_invasion_enemy_won_03 = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_03.wav"
-		advisor_notification_hostile_fleet_detected_02 = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_02.wav"
-		advisor_notification_hostile_fleet_detected_03 = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_03.wav"
-		advisor_notification_generic_war_declare_02 = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_02.wav"
-		advisor_notification_fleet_detected_02 = "vo/advisor-EldarSeer/advisor_notification_fleet_detected_02.wav"
-		advisor_notification_alien_spaceport_engaged_02 = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_02.wav"
-		advisor_notification_alien_spaceport_engaged_03 = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_03.wav"
-		advisor_notification_alien_spaceport_engaged_04 = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_04.wav"
-		advisor_notification_colonization_progress_02 = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_02.wav"
-		advisor_notification_colonization_progress_03 = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_03.wav"
-		advisor_notification_colony_ship_destroyed_02 = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_02.wav"
-		advisor_notification_colony_ship_destroyed_03 = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_03.wav"
-		advisor_notification_construction_ship_destroyed_02 = "vo/advisor-EldarSeer/advisor_notification_construction_ship_destroyed_02.wav"
-		advisor_notification_construction_ship_destroyed_03 = "vo/advisor-EldarSeer/advisor_notification_construction_ship_destroyed_03.wav"
-		advisor_notification_enemy_declared_war_02 = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_02.wav"
-		advisor_notification_enemy_declared_war_03 = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_03.wav"
-		advisor_notification_enemy_declared_war_04 = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_04.wav"
-		advisor_notification_debris_analysed_02 = "vo/advisor-EldarSeer/advisor_notification_debris_analysed_02.wav"
-		advisor_notification_fleet_destroyed_02 = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_02.wav"
-		advisor_notification_fleet_destroyed_03 = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_03.wav"
-		advisor_notification_hostile_fleet_engaged_02 = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_02.wav"
-		advisor_notification_hostile_fleet_engaged_03 = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_03.wav"
-		advisor_notification_hostile_fleet_engaged_04 = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_04.wav"
-		advisor_notification_hostile_station_engaged_02 = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_02.wav"
-		advisor_notification_hostile_station_engaged_03 = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_03.wav"
-		advisor_notification_invasion_progress_02 = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_02.wav"
-		advisor_notification_invasion_progress_03 = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_03.wav"
-		advisor_notification_invasion_success_02 = "vo/advisor-EldarSeer/advisor_notification_invasion_success_02.wav"
-		advisor_notification_player_declare_war_02 = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_02.wav"
-		advisor_notification_player_declare_war_03 = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_03.wav"
-		advisor_notification_player_declare_war_04 = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_04.wav"
-	
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_03
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_04
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_05
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_generic_phrase_06
+			weight = 300
+		}
 	}
-}	
-	
-	
-	#### Extra EldarSeer VO Lines. There are files that amount is >1
-	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_alien_empire_communication
-	sounds = {
-		weighted_sound = { sound = advisor_notification_alien_empire_communication_01 weight = 1000 }
-	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_alien_federation_formed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_alien_federation_formed_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_alien_spaceport_engaged
-	sounds = {
-		weighted_sound = { sound = advisor_notification_alien_spaceport_engaged_01 weight = 500 }
-		weighted_sound = { sound = advisor_notification_alien_spaceport_engaged_02 weight = 750 }
-		weighted_sound = { sound = advisor_notification_alien_spaceport_engaged_03 weight = 800 }
-		weighted_sound = { sound = advisor_notification_alien_spaceport_engaged_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_01"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_01.wav"
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_02"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_02.wav"
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_03"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_03.wav"
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_04"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_04.wav"
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_05"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_05.wav"
+}
+sound = {
+	name = "Eldar_Seer_advisor_generic_phrase_06"
+	file = "vo/advisor-EldarSeer/advisor_generic_phrase_06.wav"
+}
 
+# Alien Empire Communication ("An Alien Empire has established communication")
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_alien_vessel_encountered
+	name = Eldar_Seer_advisor_notification_alien_empire_communication
 	sounds = {
-		weighted_sound = { sound = advisor_notification_alien_vessel_encountered_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_empire_communication_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_building_ruined
-	sounds = {
-		weighted_sound = { sound = advisor_notification_building_ruined_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_colonization_progress
-	sounds = {
-		weighted_sound = { sound = advisor_notification_colonization_progress_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_colonization_progress_02 weight = 500 }
-		weighted_sound = { sound = advisor_notification_colonization_progress_03 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_colony_established
-	sounds = {
-		weighted_sound = { sound = advisor_notification_colony_established_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_colony_ship_destroyed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_colony_ship_destroyed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_colony_ship_destroyed_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_colony_ship_destroyed_03 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_colony_ship_under_attack
-	sounds = {
-		weighted_sound = { sound = advisor_notification_colony_ship_under_attack_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_construction_complete
-	sounds = {
-		weighted_sound = { sound = advisor_notification_construction_complete_01 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_construction_ship_destroyed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_construction_ship_destroyed_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_construction_ship_destroyed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_construction_ship_destroyed_01 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_construction_ship_under_attack
-	sounds = {
-		weighted_sound = { sound = advisor_notification_construction_ship_under_attack_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_debris_analysed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_debris_analysed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_debris_analysed_02 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_discovery_detected
-	sounds = {
-		weighted_sound = { sound = advisor_notification_discovery_detected_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_empire_communication_01
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_empire_communication_01.wav"
 }
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_enemy_declared_war
-	sounds = {
-		weighted_sound = { sound = advisor_notification_enemy_declared_war_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_enemy_declared_war_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_enemy_declared_war_03 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_enemy_declared_war_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_enemy_invasion_defeated
-	sounds = {
-		weighted_sound = { sound = advisor_notification_enemy_invasion_defeated_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_enemy_troops_landing
-	sounds = {
-		weighted_sound = { sound = advisor_notification_enemy_troops_landing_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_evade_hostile_fleet
-	sounds = {
-		weighted_sound = { sound = advisor_notification_evade_hostile_fleet_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_federation_formed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_federation_formed_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_fleet_destroyed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_fleet_destroyed_03 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_fleet_detected
-	sounds = {
-		weighted_sound = { sound = advisor_notification_fleet_detected_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_fleet_detected_02 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}		
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_frontier_outpost_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_frontier_outpost_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_generic_war_declare
-	sounds = {
-		weighted_sound = { sound = advisor_notification_generic_war_declare_01 weight = 700 }
-		weighted_sound = { sound = advisor_notification_generic_war_declare_02 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_hostile_fleet_detected
-	sounds = {
-		weighted_sound = { sound = advisor_notification_hostile_fleet_detected_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_detected_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_detected_03 weight = 600 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_hostile_fleet_engaged
-	sounds = {
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_01 weight = 500 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_03 weight = 600 }
-		weighted_sound = { sound = advisor_notification_hostile_fleet_engaged_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_hostile_station_engaged
-	sounds = {
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_01 weight = 900 }
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_hostile_station_engaged_03 weight = 500 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_incoming_transmission
-	sounds = {
-		weighted_sound = { sound = advisor_notification_incoming_transmission_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_enemy_won
-	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_invasion_enemy_won_02 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_failed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_failed_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_progress
-	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_progress_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_invasion_progress_01 weight = 700 }
-		weighted_sound = { sound = advisor_notification_invasion_progress_01 weight = 800 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_invasion_success
-	sounds = {
-		weighted_sound = { sound = advisor_notification_invasion_success_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_invasion_success_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_military_station_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_military_station_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_mining_station_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_mining_station_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_observation_post_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_observation_post_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_planet_in_revolt
-	sounds = {
-		weighted_sound = { sound = advisor_notification_planet_in_revolt_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_planet_in_revolt_02 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}		
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_player_declare_war
-	sounds = {
-		weighted_sound = { sound = advisor_notification_player_declare_war_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_player_declare_war_02 weight = 600 }
-		weighted_sound = { sound = advisor_notification_player_declare_war_03 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_player_declare_war_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_pre_sapient_uplifted
-	sounds = {
-		weighted_sound = { sound = advisor_notification_pre_sapient_uplifted_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_primitive_enlighted
-	sounds = {
-		weighted_sound = { sound = advisor_notification_primitive_enlighted_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_research_complete
-	sounds = {
-		weighted_sound = { sound = advisor_notification_research_complete_01 weight = 800 }
-		weighted_sound = { sound = advisor_notification_research_complete_02 weight = 800 }
-		weighted_sound = { sound = advisor_notification_research_complete_03 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_research_complete_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_research_station_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_research_station_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_science_ship_destroyed
-	sounds = {
-		weighted_sound = { sound = advisor_notification_science_ship_destroyed_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_science_ship_destroyed_02 weight = 700 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_science_ship_under_attack
-	sounds = {
-		weighted_sound = { sound = advisor_notification_science_ship_under_attack_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_ships_upgraded
-	sounds = {
-		weighted_sound = { sound = advisor_notification_ships_upgraded_01 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_02 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_03 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_04 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_05 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_06 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_07 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_08 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_09 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_10 weight = 600 }
-		weighted_sound = { sound = advisor_notification_ships_upgraded_11 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_situation_log
-	sounds = {
-		weighted_sound = { sound = advisor_notification_situation_log_01 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_02 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_03 weight = 1000 }
-		weighted_sound = { sound = advisor_notification_situation_log_04 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
-soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_spaceport_lost
-	sounds = {
-		weighted_sound = { sound = advisor_notification_spaceport_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}	
 
+# Alien Federation Formed 
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_spaceport_under_attack
+	name = Eldar_Seer_advisor_notification_alien_federation_formed
 	sounds = {
-		weighted_sound = { sound = advisor_notification_spaceport_under_attack_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_federation_formed_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_federation_formed_02
+			weight = 500
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_federation_formed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_federation_formed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_federation_formed_02.wav"
+}
+
+# Alien Spaceport Engaged 
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_special_project_complete
+	name = Eldar_Seer_advisor_notification_alien_spaceport_engaged
 	sounds = {
-		weighted_sound = { sound = advisor_notification_special_project_complete_01 weight = 1000 }
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_spaceport_engaged_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_spaceport_engaged_02
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_spaceport_engaged_03
+			weight = 600
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_spaceport_engaged_01
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_spaceport_engaged_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_spaceport_engaged_02
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_spaceport_engaged_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_spaceport_engaged_03
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_spaceport_engaged_03.wav"
+}
+
+# Alien Vessel Encountered
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_alien_vessel_encountered
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_alien_vessel_encountered_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_alien_vessel_encountered_01
+	file = "vo/advisor-EldarSeer/advisor_notification_alien_vessel_encountered_01.wav"
+}
+
+# Building Ruined
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_building_ruined
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_building_ruined_01
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_building_ruined_02
+			weight = 900
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_building_ruined_01
+	file = "vo/advisor-EldarSeer/advisor_notification_building_ruined_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_building_ruined_02
+	file = "vo/advisor-EldarSeer/advisor_notification_building_ruined_02.wav"
+}
+
+# Colonization Progress ("Colonization in progress")
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_colonization_progress
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_colonization_progress_01 
+			weight = 800 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_colonization_progress_02 
+			weight = 500 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_colonization_progress_03 
+			weight = 700
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colonization_progress_01
+	file = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colonization_progress_02
+	file = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colonization_progress_03
+	file = "vo/advisor-EldarSeer/advisor_notification_colonization_progress_03.wav"
+}
+
+# Colony established
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_colony_established
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_established_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_established_02
+			weight = 500
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_established_01
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_established_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_established_02
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_established_02.wav"
+}
+
+# Colony ship destroyed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_colony_ship_destroyed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_destroyed_01
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_destroyed_02
+			weight = 200
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_destroyed_03
+			weight = 200
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_destroyed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_destroyed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_destroyed_03
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_destroyed_03.wav"
+}
+
+# Colony Ship under attack
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_colony_ship_under_attack
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_under_attack_01
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_under_attack_02
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_colony_ship_under_attack_03
+			weight = 100
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_under_attack_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_under_attack_02
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_under_attack_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_colony_ship_under_attack_03
+	file = "vo/advisor-EldarSeer/advisor_notification_colony_ship_under_attack_03.wav"
+}
+
+# Construction complete
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_construction_complete
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_construction_complete_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_construction_complete_02
+			weight = 800
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_construction_complete_01
+	file = "vo/advisor-EldarSeer/advisor_notification_construction_complete_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_construction_complete_02
+	file = "vo/advisor-EldarSeer/advisor_notification_construction_complete_02.wav"
+}
+
+# Construction ship destroyed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_construction_ship_destroyed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_construction_ship_destroyed_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_construction_ship_destroyed_02
+			weight = 500
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_construction_ship_destroyed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_construction_ship_destroyed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_construction_ship_destroyed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_construction_ship_destroyed_02.wav"
+}
+
+# Construction ship under attack
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_construction_ship_under_attack
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_construction_ship_under_attack_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_construction_ship_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_construction_ship_under_attack_01.wav"
+}
+
+# Debris analyzed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_debris_analysed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_debris_analysed_01
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_debris_analysed_02
+			weight = 700
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_debris_analysed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_debris_analysed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_debris_analysed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_debris_analysed_02.wav"
+}
+
+# Discovery detected
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_discovery_detected
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_discovery_detected_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_discovery_detected_01
+	file = "vo/advisor-EldarSeer/advisor_notification_discovery_detected_01.wav"
+}
+
+# Enemy declared war
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_enemy_declared_war
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_declared_war_01
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_declared_war_02
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_declared_war_03
+			weight = 400
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_declared_war_01
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_declared_war_02
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_declared_war_03
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_declared_war_03.wav"
+}
+
+# Enemy invasion defeated
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_enemy_invasion_defeated
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_invasion_defeated_01
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_invasion_defeated_02
+			weight = 100
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_invasion_defeated_01
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_invasion_defeated_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_invasion_defeated_02
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_invasion_defeated_02.wav"
+}
+
+# Enemy troops landing
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_02
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_03
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_04
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_05
+			weight = 400
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_06
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_07
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_08
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_09
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_enemy_troops_landing_10
+			weight = 700
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_01
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_02
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_03
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_04
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_04.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_05
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_05.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_06
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_06.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_07
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_07.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_08
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_08.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_09
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_09.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_enemy_troops_landing_10
+	file = "vo/advisor-EldarSeer/advisor_notification_enemy_troops_landing_10.wav"
+}
+
+# Evade hostile fleet
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_evade_hostile_fleet
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_evade_hostile_fleet_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_evade_hostile_fleet_01 
+	file = "vo/advisor-EldarSeer/advisor_notification_evade_hostile_fleet_01.wav"
+}
+
+# Federation formed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_federation_formed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_federation_formed_01
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_federation_formed_02
+			weight = 400
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_federation_formed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_federation_formed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_federation_formed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_federation_formed_02.wav"
+}
+
+# Fleet destroyed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_01
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_fleet_destroyed_03
+			weight = 900
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_fleet_destroyed_03
+	file = "vo/advisor-EldarSeer/advisor_notification_fleet_destroyed_03.wav"
+}
+
+# Frontier outpost lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_frontier_outpost_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_frontier_outpost_lost_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_frontier_outpost_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_frontier_outpost_lost_01.wav"
+}
+
+# Generic war declare
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_generic_war_declare
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_generic_war_declare_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_generic_war_declare_01
+	file = "vo/advisor-EldarSeer/advisor_notification_generic_war_declare_01.wav"
+}
+
+# Hostile fleet detected
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_01
+			weight = 900
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_02
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_03
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_04
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_05
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_07
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_08
+			weight = 100
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_09
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_10
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_detected_11
+			weight = 100
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_01
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_02
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_03
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_04
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_04.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_05
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_05.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_06
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_06.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_07
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_07.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_08
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_08.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_09
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_09.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_10
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_10.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_detected_11
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_detected_11.wav"
+}
+
+# Hostile fleet engaged
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_engaged
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_engaged_01
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_engaged_02
+			weight = 400
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_fleet_engaged_03
+			weight = 300
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_engaged_01
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_engaged_02
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_fleet_engaged_03
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_fleet_engaged_03.wav"
+}
+
+# Hostile station engaged
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_01
+			weight = 300
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_02
+			weight = 400
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_hostile_station_engaged_03
+			weight = 300
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_01
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_02
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_hostile_station_engaged_03
+	file = "vo/advisor-EldarSeer/advisor_notification_hostile_station_engaged_03.wav"
+}
+
+# Incoming transmission
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_incoming_transmission
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_incoming_transmission_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_incoming_transmission_01
+	file = "vo/advisor-EldarSeer/advisor_notification_incoming_transmission_01.wav"
+}
+
+# Incoming transmission 01 (For caravans events). Uses the same sound
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_incoming_transmission_011
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_incoming_transmission_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+# Enemy invasion won
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_01
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_02
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_enemy_won_03
+			weight = 800
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_enemy_won_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_enemy_won_03.wav"
+}
+
+# Invasion_failed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_invasion_failed
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_failed_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_failed_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_failed_03
+			weight = 600
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_failed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_failed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_failed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_failed_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_failed_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_failed_03.wav"
+}
+
+# Invasion progress
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_invasion_progress
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_progress_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_progress_02
+			weight = 600
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_progress_03
+			weight = 800
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_progress_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_progress_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_progress_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_progress_03.wav"
+}
+
+# Invasion success
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_invasion_success
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_invasion_success_03
+			weight = 800
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_01
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_02
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_invasion_success_03
+	file = "vo/advisor-EldarSeer/advisor_notification_invasion_success_03.wav"
+}
+
+# Military station lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_military_station_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_military_station_lost_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_military_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_military_station_lost_01.wav"
+}
+
+# Mining station lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_mining_station_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_mining_station_lost_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_mining_station_lost_02
+			weight = 500
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_mining_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_mining_station_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_mining_station_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_mining_station_lost_02.wav"
+}
+
+# Observation post lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_observation_post_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_observation_post_lost_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_observation_post_lost_02
+			weight = 500
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_observation_post_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_observation_post_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_observation_post_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_observation_post_lost_02.wav"
+}
+
+# Planet in revolt
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_planet_in_revolt
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_planet_in_revolt_01
+			weight = 500
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_planet_in_revolt_02
+			weight = 500
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }	
+sound = {
+	name = Eldar_Seer_advisor_notification_planet_in_revolt_01
+	file = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_planet_in_revolt_02
+	file = "vo/advisor-EldarSeer/advisor_notification_planet_in_revolt_02.wav"
+}
+
+# Player declare war
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_species_modified
+	name = Eldar_Seer_advisor_notification_player_declare_war
 	sounds = {
-		weighted_sound = { sound = advisor_notification_species_modified_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_player_declare_war_01
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_player_declare_war_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_player_declare_war_03
+			weight = 700
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_01
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_02
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_player_declare_war_03
+	file = "vo/advisor-EldarSeer/advisor_notification_player_declare_war_03.wav"
+}
+
+# Pre-sapient uplifted
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_station_under_attack
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted
 	sounds = {
-		weighted_sound = { sound = advisor_notification_station_under_attack_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_01
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_02
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_pre_sapient_uplifted_03
+			weight = 700
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_01
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_02
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_pre_sapient_uplifted_03
+	file = "vo/advisor-EldarSeer/advisor_notification_pre_sapient_uplifted_03.wav"
+}
+
+# Primitive enlighted
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_system_survey_complete
+	name = Eldar_Seer_advisor_notification_primitive_enlighted
 	sounds = {
-		weighted_sound = { sound = advisor_notification_system_survey_complete_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_primitive_enlighted_01 
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_primitive_enlighted_02
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_primitive_enlighted_03
+			weight = 800
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_primitive_enlighted_01
+	file = "vo/advisor-EldarSeer/advisor_notification_primitive_enlighted_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_primitive_enlighted_02
+	file = "vo/advisor-EldarSeer/advisor_notification_primitive_enlighted_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_primitive_enlighted_03
+	file = "vo/advisor-EldarSeer/advisor_notification_primitive_enlighted_03.wav"
+}
+
+# Research complete
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_tile_blocker_clear
+	name = Eldar_Seer_advisor_notification_research_complete
 	sounds = {
-		weighted_sound = { sound = advisor_notification_tile_blocker_clear_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_research_complete_01 
+			weight = 800 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_research_complete_02 
+			weight = 800 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_research_complete_03 
+			weight = 800 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_research_complete_04 
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_research_complete_05
+			weight = 800
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+sound = {
+	name = Eldar_Seer_advisor_notification_research_complete_01
+	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_complete_02
+	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_complete_03
+	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_complete_04
+	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_04.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_complete_05
+	file = "vo/advisor-EldarSeer/advisor_notification_research_complete_05.wav"
+}
+
+
+# Research station lost
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_unidentified_object
+	name = Eldar_Seer_advisor_notification_research_station_lost
 	sounds = {
-		weighted_sound = { sound = advisor_notification_unidentified_object_01 weight = 1000 }
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_research_station_lost_01 
+			weight = 800
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_research_station_lost_02
+			weight = 800
+		}
 	} 
-	volume = 0.45
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_research_station_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_research_station_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_research_station_lost_02.wav"
+}
+
+# Science ship destroyed
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_science_ship_destroyed
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_science_ship_destroyed_01
+			weight = 900 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_science_ship_destroyed_02
+			weight = 600
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_destroyed_01
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_destroyed_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_destroyed_02
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_destroyed_02.wav"
+}
+
+# Science ship under attack
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_01 
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_02
+			weight = 700
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_science_ship_under_attack_03
+			weight = 700
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_02
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_science_ship_under_attack_03
+	file = "vo/advisor-EldarSeer/advisor_notification_science_ship_under_attack_03.wav"
+}
+
+# Ships upgraded
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_01 
+			weight = 600 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_02 
+			weight = 600 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_ships_upgraded_03 
+			weight = 600 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_01
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_02
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_ships_upgraded_03
+	file = "vo/advisor-EldarSeer/advisor_notification_ships_upgraded_03.wav"
+}
+
+# Situation log
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_situation_log
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_situation_log_01
+			weight = 700
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_02
+			weight = 700 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_03
+			weight = 700 
+		}
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_situation_log_04
+			weight = 700 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_01
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_02
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_02.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_03
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_03.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_situation_log_04
+	file = "vo/advisor-EldarSeer/advisor_notification_situation_log_04.wav"
+}
+
+# Spaceborne encounter
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_spaceborne_encounter
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_spaceborne_encounter_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_spaceborne_encounter_01
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceborne_encounter_01.wav"
+}
+
+# Spaceport lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_spaceport_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_spaceport_lost_01 
+			weight = 1000
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_spaceport_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceport_lost_01.wav"
+}
+
+# Spaceport under attack
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_spaceport_under_attack
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_spaceport_under_attack_01
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_spaceport_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_spaceport_under_attack_01.wav"
+}
+
+# Special project complete
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_special_project_complete
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_special_project_complete_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_special_project_complete_01
+	file = "vo/advisor-EldarSeer/advisor_notification_special_project_complete_01.wav"
+}
+
+# Species modified
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_species_modified
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_species_modified_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_species_modified_01
+	file = "vo/advisor-EldarSeer/advisor_notification_species_modified_01.wav"
+}
+
+# Station under attack
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_station_under_attack
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_station_under_attack_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_station_under_attack_01
+	file = "vo/advisor-EldarSeer/advisor_notification_station_under_attack_01.wav"
+}
+
+# System survey complete
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_system_survey_complete
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_system_survey_complete_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_system_survey_complete_01
+	file = "vo/advisor-EldarSeer/advisor_notification_system_survey_complete_01.wav"
+}
+
+# Tile blocker clear
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_tile_blocker_clear
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_tile_blocker_clear_01 
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_tile_blocker_clear_01
+	file = "vo/advisor-EldarSeer/advisor_notification_tile_blocker_clear_01.wav"
+}
+
+# Unidentified object
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_unidentified_object
+	sounds = {
+		weighted_sound = { 
+			sound = Eldar_Seer_advisor_notification_unidentified_object_01
+			weight = 1000 
+		}
+	} 
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_unidentified_object_01
+	file = "vo/advisor-EldarSeer/advisor_notification_unidentified_object_01.wav"
+}
+
+# Wormhole station lost
+soundeffect = {
+	name = Eldar_Seer_advisor_notification_wormhole_station_lost
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_wormhole_station_lost_01
+			weight = 700 
+		}
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_notification_wormhole_station_lost_02
+			weight = 700
+		}
+	} 
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
 }	
-	
+sound = {
+	name = Eldar_Seer_advisor_notification_wormhole_station_lost_01
+	file = "vo/advisor-EldarSeer/advisor_notification_wormhole_station_lost_01.wav"
+}
+sound = {
+	name = Eldar_Seer_advisor_notification_wormhole_station_lost_02
+	file = "vo/advisor-EldarSeer/advisor_notification_wormhole_station_lost_02.wav"
+}
+
+# Agenda available
 soundeffect = {
-	name = advisor-EldarSeer_advisor_notification_wormhole_station_lost
+	name = Eldar_Seer_advisor_tutorial_agenda_available
 	sounds = {
-		weighted_sound = { sound = advisor_notification_wormhole_station_lost_01 weight = 1000 }
-	} 
-	volume = 0.45
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_tutorial_agenda_available_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
 	max_audible = 1
 	max_audible_behaviour = fail
-}	
+}
+sound = {
+	name = Eldar_Seer_advisor_tutorial_agenda_available_01
+	file = "vo/advisor-EldarSeer/advisor_tutorial_agenda_available_01.wav"
+}
+
+# Agenda ready
+soundeffect = {
+	name = Eldar_Seer_advisor_tutorial_agenda_ready
+	sounds = {
+		weighted_sound = {
+			sound = Eldar_Seer_advisor_tutorial_agenda_ready_01
+			weight = 1000
+		}
+	}
+	volume = 0.99
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+sound = {
+	name = Eldar_Seer_advisor_tutorial_agenda_ready_01
+	file = "vo/advisor-EldarSeer/advisor_tutorial_agenda_ready_01.wav"
+}
 
 
-
-
-
-		### Category
+### Category
+# Here just list all "soundeffect" object you created above
 category = {
- name = "Voice"
- soundeffects = {
-		advisor-EldarSeer_advisor_notification_alien_empire_communication
-		advisor-EldarSeer_advisor_notification_alien_federation_formed
-		advisor-EldarSeer_advisor_notification_alien_spaceport_engaged
-		advisor-EldarSeer_advisor_notification_alien_vessel_encountered
-		advisor-EldarSeer_advisor_notification_colonization_progress
-		advisor-EldarSeer_advisor_notification_colony_established
-		advisor-EldarSeer_advisor_notification_colony_ship_destroyed
-		advisor-EldarSeer_advisor_notification_colony_ship_under_attack
-		advisor-EldarSeer_advisor_notification_construction_complete
-		advisor-EldarSeer_advisor_notification_construction_ship_destroyed
-		advisor-EldarSeer_advisor_notification_construction_ship_under_attack
-		advisor-EldarSeer_advisor_notification_debris_analysed
-		advisor-EldarSeer_advisor_notification_discovery_detected
-		advisor-EldarSeer_advisor_notification_enemy_declared_war
-		advisor-EldarSeer_advisor_notification_enemy_invasion_defeated
-		advisor-EldarSeer_advisor_notification_enemy_troops_landing
-		advisor-EldarSeer_advisor_notification_evade_hostile_fleet
-		advisor-EldarSeer_advisor_notification_federation_formed
-		advisor-EldarSeer_advisor_notification_fleet_destroyed
-		advisor-EldarSeer_advisor_notification_fleet_detected
-		advisor-EldarSeer_advisor_notification_frontier_outpost_lost
-		advisor-EldarSeer_advisor_notification_generic_war_declare
-		advisor-EldarSeer_advisor_notification_hostile_fleet_detected
-		advisor-EldarSeer_advisor_notification_hostile_fleet_engaged
-		advisor-EldarSeer_advisor_notification_hostile_station_engaged
-		advisor-EldarSeer_advisor_notification_incoming_transmission
-		advisor-EldarSeer_advisor_notification_invasion_enemy_won
-		advisor-EldarSeer_advisor_notification_invasion_failed
-		advisor-EldarSeer_advisor_notification_invasion_progress
-		advisor-EldarSeer_advisor_notification_invasion_success
-		advisor-EldarSeer_advisor_notification_military_station_lost
-		advisor-EldarSeer_advisor_notification_mining_station_lost
-		advisor-EldarSeer_advisor_notification_observation_post_lost
-		advisor-EldarSeer_advisor_notification_planet_in_revolt
-		advisor-EldarSeer_advisor_notification_player_declare_war
-		advisor-EldarSeer_advisor_notification_pre_sapient_uplifted
-		advisor-EldarSeer_advisor_notification_primitive_enlighted
-		advisor-EldarSeer_advisor_notification_research_complete
-		advisor-EldarSeer_advisor_notification_research_station_lost
-		advisor-EldarSeer_advisor_notification_science_ship_destroyed
-		advisor-EldarSeer_advisor_notification_science_ship_under_attack
-		advisor-EldarSeer_advisor_notification_ships_upgraded
-		advisor-EldarSeer_advisor_notification_situation_log
-		advisor-EldarSeer_advisor_notification_spaceport_lost
-		advisor-EldarSeer_advisor_notification_spaceport_under_attack
-		advisor-EldarSeer_advisor_notification_special_project_complete
-		advisor-EldarSeer_advisor_notification_species_modified
-		advisor-EldarSeer_advisor_notification_station_under_attack
-		advisor-EldarSeer_advisor_notification_system_survey_complete
-		advisor-EldarSeer_advisor_notification_tile_blocker_clear
-		advisor-EldarSeer_advisor_notification_unidentified_object
-		advisor-EldarSeer_advisor_notification_wormhole_station_lost
+	name = "Voice"
+	soundeffects = {
+		Eldar_Seer_advisor_generic_phrase
+		Eldar_Seer_advisor_notification_alien_empire_communication
+		Eldar_Seer_advisor_notification_alien_federation_formed
+		Eldar_Seer_advisor_notification_alien_spaceport_engaged
+		Eldar_Seer_advisor_notification_alien_vessel_encountered
+		Eldar_Seer_advisor_notification_building_ruined
+		Eldar_Seer_advisor_notification_colonization_progress
+		Eldar_Seer_advisor_notification_colony_established
+		Eldar_Seer_advisor_notification_colony_ship_destroyed
+		Eldar_Seer_advisor_notification_colony_ship_under_attack
+		Eldar_Seer_advisor_notification_construction_complete
+		Eldar_Seer_advisor_notification_construction_ship_destroyed
+		Eldar_Seer_advisor_notification_construction_ship_under_attack
+		Eldar_Seer_advisor_notification_debris_analysed
+		Eldar_Seer_advisor_notification_discovery_detected
+		Eldar_Seer_advisor_notification_enemy_declared_war
+		Eldar_Seer_advisor_notification_enemy_invasion_defeated
+		Eldar_Seer_advisor_notification_enemy_troops_landing
+		Eldar_Seer_advisor_notification_evade_hostile_fleet
+		Eldar_Seer_advisor_notification_federation_formed
+		Eldar_Seer_advisor_notification_fleet_destroyed
+		Eldar_Seer_advisor_notification_generic_war_declare
+		Eldar_Seer_advisor_notification_hostile_fleet_detected
+		Eldar_Seer_advisor_notification_hostile_fleet_engaged
+		Eldar_Seer_advisor_notification_hostile_station_engaged
+		Eldar_Seer_advisor_notification_incoming_transmission
+		Eldar_Seer_advisor_notification_incoming_transmission_011
+		Eldar_Seer_advisor_notification_invasion_enemy_won
+		Eldar_Seer_advisor_notification_invasion_failed
+		Eldar_Seer_advisor_notification_invasion_progress
+		Eldar_Seer_advisor_notification_invasion_success
+		Eldar_Seer_advisor_notification_military_station_lost
+		Eldar_Seer_advisor_notification_mining_station_lost
+		Eldar_Seer_advisor_notification_observation_post_lost
+		Eldar_Seer_advisor_notification_planet_in_revolt
+		Eldar_Seer_advisor_notification_player_declare_war
+		Eldar_Seer_advisor_notification_pre_sapient_uplifted
+		Eldar_Seer_advisor_notification_primitive_enlighted
+		Eldar_Seer_advisor_notification_research_complete
+		Eldar_Seer_advisor_notification_research_station_lost
+		Eldar_Seer_advisor_notification_science_ship_destroyed
+		Eldar_Seer_advisor_notification_science_ship_under_attack
+		Eldar_Seer_advisor_notification_ships_upgraded
+		Eldar_Seer_advisor_notification_situation_log
+		Eldar_Seer_advisor_notification_spaceborne_encounter
+		Eldar_Seer_advisor_notification_spaceport_lost
+		Eldar_Seer_advisor_notification_spaceport_under_attack
+		Eldar_Seer_advisor_notification_special_project_complete
+		Eldar_Seer_advisor_notification_species_modified
+		Eldar_Seer_advisor_notification_station_under_attack
+		Eldar_Seer_advisor_notification_system_survey_complete
+		Eldar_Seer_advisor_notification_tile_blocker_clear
+		Eldar_Seer_advisor_notification_unidentified_object
+		Eldar_Seer_advisor_notification_wormhole_station_lost
+		Eldar_Seer_advisor_tutorial_agenda_available
+		Eldar_Seer_advisor_tutorial_agenda_ready
 	}
 }
